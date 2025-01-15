@@ -60,7 +60,7 @@ sudo ./svc.sh stop
 sudo ./svc.sh uninstall
 
 # Re-configure the runner
-./config.sh --url https://github.com/vikashishere/MLOps-Test-Proj --token <NEW_TOKEN>
+./config.sh --url https://github.com/ashpaqueshaikh4236/machine-learning-project-with-mlflow --token <NEW_TOKEN>
 
 # Re-install and start the service
 sudo ./svc.sh install
