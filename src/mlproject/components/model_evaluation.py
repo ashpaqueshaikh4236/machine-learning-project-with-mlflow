@@ -24,7 +24,7 @@ class ModelEvaluation:
         return rmse, mae, r2
     
     def log_into_mlflow(self):
-        dagshub.init(repo_owner='ashpaqueshaikh4236', repo_name='Machine-Learning-Project-with-MLflow', mlflow=True)
+        dagshub.init(repo_owner='ashpaqueshaikh4236', repo_name='machine-learning-project-with-mlflow', mlflow=True)
         
         test_data = pd.read_csv(self.config.test_data_path)
         model = joblib.load(self.config.model_path)
